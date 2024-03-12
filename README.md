@@ -5,8 +5,6 @@ This project implements face detection algorithms to locate human faces in image
 ## Features
 
 - User-Friendly Interface: Drag-and-drop or browse to upload images directly from your device.
-- Deep Learning Model Integration: Pre-trained models like VGG16, ResNet50, or MobileNetV2 can be readily integrated for efficient image classification.
-- Model Explainability (Optional): For advanced users, provide explanations or saliency maps to elucidate the reasoning behind predictions.
 
 ## Technologies
 
@@ -18,7 +16,7 @@ This project implements face detection algorithms to locate human faces in image
 - Create an HTML page with drag-and-drop or file upload functionality.
 - Implement JavaScript code to handle user interactions, image upload, and communication with the backend.
 
-## Prerequisites:
+## Prerequisites
 
 - Python (version 3.10 or later)
 - Necessary libraries (refer to requirements.txt for specific dependencies)
