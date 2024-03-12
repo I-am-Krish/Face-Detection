@@ -1,0 +1,34 @@
+#custom-cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, .3);
+  z-index: 99999;
+  pointer-events: none;
+  transition: transform .6s ease;
+  will-change: transform;
+}
+
+#custom-cursor.cursor-hover {
+  transform: scale(5); /* Increase cursor size on hover */
+  background-color: rgba(255, 255, 255, .2);
+}
+
+.hover-effect:hover #custom-cursor {
+  transform: scale(2); /* Adjust the scale factor as needed */
+}
+
+.custom-header p:hover #custom-cursor {
+  transform: scale(3); /* Adjust the scale factor as needed */
+}
+
+/* Change text color on hover */
+.hover-effect:hover {
+  color: blue; /* Change to the desired text color */
+}
+
+/* Prevent the text color from changing on cursor hover */
+.hover-effect:hover p {
+  color: initial;
+}
